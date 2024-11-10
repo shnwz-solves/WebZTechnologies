@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <title>Atech Technologies</title>
+
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header  style="background: #fff;">
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="index.html">
+        <h1 class="logo"><img src="assets/images/atechTechnologies.png" alt="logo" style="height: 100px;"></h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo"></a>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-navbar-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-navbar-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-navbar-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contactUS" class="navbar-link" data-navbar-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button href="#" class="btn" id="quoteButton">
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+        
+        <span>Get A Quote</span>
+      </button>
+      <!--Modal for form-->
+      <div id="quoteModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Atech Technologies</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form id="quoteForm" action="mailto:your@email.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone:</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea class="form-control" id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Modal form form End-->
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">We Are Web Designer From India</p>
+
+            <h2 class="h2 hero-title">We Design Interfaces That Users Love</h2>
+
+            <p class="hero-text">
+              Empower your online venture with Atech Technologies – Your all-in-one solution for digital success. Based in India, we specialize in guiding your online business to new heights.
+            </p>
+
+            <button class="btn">Learn More</button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="694" height="529" loading="lazy" alt="hero-banner"
+              class="w-100 banner-animation">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="700" height="532" loading="lazy" alt="about banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title underline">Why Our Agency</h2>
+            <ul class="whyUS">
+              <li><p>✨ Expertise:</p> With years of experience under our belts, we possess the knowledge and skills to create stunning designs tailored to your specific needs.</li>
+              <li><p>✨ Collaborative Process: </p>We value open communication and collaboration, working closely with you every step of the way to bring your vision to life.</li>
+              <li><p>✨ User-Centric Approach: </p>Our designs are not only visually appealing but also intuitive, ensuring a seamless user experience that keeps visitors engaged.</li>
+              <li><p>✨ Creativity: </p>We believe in pushing boundaries and thinking outside the box to deliver designs that stand out in the digital landscape.</li>
+              <li><p>✨ Affordable Pricing: </p>Quality design shouldn't break the bank. We offer competitive rates without compromising on excellence.</li> <br>
+            </ul>
+
+            <ul class="stats-list">
+
+              <li class="stats-card">
+                <p class="h3 stats-title">10+</p>
+
+                <p class="stats-text">Satisfied Clients</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">20+</p>
+
+                <p class="stats-text">Project Lunched</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">1+</p>
+
+                <p class="stats-text">Years Completed</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Our Speciallization</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="telescope-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Strategy & Research</h3>
+
+                <p class="text">
+                  We are experts at navigating your online journey. Our staff makes a concerted effort to comprehend your target audience and create strategies that will put you on the road to success.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="desktop-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Web Development</h3>
+
+                <p class="text">
+                  Let's bring your ideas to life! Our developers thrive on turning your vision into stunning websites, blending creativity with the latest tech for an unforgettable online presence.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="globe-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Web Solution</h3>
+
+                <p class="text">
+                  With us, streamline your digital experience. We're here to improve the efficiency and smoothness of your online experience, from customized solutions to seamless integrations.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="stats-chart"></ion-icon>                  
+                </div>
+
+                <h3 class="h3 title">Responsibility</h3>
+
+                <p class="text">
+                  Resposiblity is writing and reviewing code for sites, integrating multimedia content, testing and troubleshooting problems and most importantly deliver project under given deadline by client.  
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="ribbon"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Half Yearly Free Services</h3>
+
+                <p class="text">
+                  Keep your website sailing smoothly with our Half-Yearly Free Services & Maintenance, because your online presence deserves nothing less than constant care and attention.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Our Features</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Software Solutions
+                  </h3>
+
+                  <p class="text">
+                    
+                              Tailored solutions for streamlined operations and enhanced productivity.
+
+                              Reliable support to ensure the smooth functioning of your systems.
+
+                              Scalable and secure cloud solutions for digital transformation.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="color-palette-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Listing Management
+                  </h3>
+
+                  <p class="text">
+                    Take control of your online listings and ensure accurate representation across various platforms with our listing management services. With our expertise, you can enhance your online reputation and attract more potential leads.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <figure class="features-banner">
+            <img src="./assets/images/feautres-banner.png" width="369" height="318" loading="lazy" alt="Features Banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <ul class="features-list">
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="code-slash-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Web Development & Optimization</h3>
+
+                  <p class="text">
+                    Maximize your online presence with our professional web development and optimization services. Our expert team ensures your website is optimized for speed, responsiveness, UX, helping you attract and retain customers.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Online Presence Enhancement:</h3>
+
+                  <p class="text">
+                    Strengthen your brand's online visibility. From crafting compelling content to managing social media profiles, we help you connect with your audience and stand out in the digital landscape.  
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+   <!-- TechStack -->
+  <!-- <section class="tech-stack text-center m-5">
+    <h2 class="fw-bold h2 section-title underline">Tech Solutions Designed for All Industries</h2>
+    <div class="tech-btnns">
+      <button id="btn-12" class="tech-stack-btnn blue">Tech Stack</button>
+      <button id="btn-22" class="industry-btnn">Industry Expertise</button>
+    </div>
+    <section class="amir">
+
+      <div id="test">
+        <div class="Tech-content-1">
+
+          <div id="sect-tech1">
+            <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/react.png" />
+                <p class="text-center my-auto mx-auto"> React </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/js.png" />
+                <p class="text-center my-auto mx-auto"> Javascript </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/node.png" />
+                <p class="text-center my-auto mx-auto"> Node.js </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/php.png" />
+                <p class="text-center my-auto mx-auto"> php </p>
+              </div>
+            </div>
+          </div>
+          <div id="sect-tech2">
+            <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/python.png" />
+                <p class="text-center my-auto mx-auto"> Python </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/java.png" />
+                <p class="text-center my-auto mx-auto"> Java </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/aws.png" />
+                <p class="text-center my-auto mx-auto"> aws </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/ml.png" />
+                <p class="text-center my-auto mx-auto"> Machine Learning </p>
+              </div>
+            </div>
+          </div>
+          <div id="sect-tech3">
+            <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/android.png" />
+                <p class="text-center my-auto mx-auto"> Android Dev </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/angular.png" />
+                <p class="text-center my-auto mx-auto"> Angular </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/chash.png" />
+                <p class="text-center my-auto mx-auto"> C# </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/cpp.png" />
+                <p class="text-center my-auto mx-auto"> C++ </p>
+              </div>
+            </div>
+          </div>
+          <div id="sect-tech4">
+            <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/azure.png" />
+                <p class="text-center my-auto mx-auto"> Azure </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/ruby.png" />
+                <p class="text-center my-auto mx-auto"> Ruby </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/wordpress.png" />
+                <p class="text-center my-auto mx-auto"> WordPress </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/ios.png" />
+                <p class="text-center my-auto mx-auto"> IOS Dev </p>
+              </div>
+            </div>
+          </div>
+          <div id="sect-tech5">
+            <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/html.png" />
+                <p class="text-center my-auto mx-auto"> HTML5 </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/flutter.png" />
+                <p class="text-center my-auto mx-auto"> Flutter </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/react.png" />
+                <p class="text-center my-auto mx-auto"> React Native </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/uiux.png" />
+                <p class="text-center my-auto mx-auto"> UI/UX </p>
+              </div>
+            </div>
+          </div>
+          <div id="sect-tech6">
+            <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/django.png" />
+                <p class="text-center my-auto mx-auto"> django </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/swift.png" />
+                <p class="text-center my-auto mx-auto"> Swift </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/fullstack.png" />
+                <p class="text-center my-auto mx-auto"> Full Stack </p>
+              </div>
+              <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+                <img src="images/tech/psql.png" />
+                <p class="text-center my-auto mx-auto"> PSQL </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="test1"></div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+  </section> -->
+  <!-- TechStackEnd -->
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Our Blog & News</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="PageUnderDevelopment.html">
+                    <img src="./assets/images/blog-1.jpg" width="750" height="350" loading="lazy"
+                      alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="PageUnderDevelopment.html">
+                      Industry Deep Dives:
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Delve into comprehensive analyses exploring the latest trends and advancements within your sector.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-03-07">7 Feb, 2023</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">150</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="PageUnderDevelopment.html">
+                    <img src="./assets/images/blog-2.jpg" width="750" height="350" loading="lazy"
+                      alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="PageUnderDevelopment.html">
+                      Success Stories:
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Uncover inspiring success stories from our clients, showcasing real-world achievements and strategies.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-03-07">7 March, 2022</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">246</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="PageUnderDevelopment.html">
+                    <img src="./assets/images/blog-3.jpg" width="750" height="350" loading="lazy"
+                      alt="Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="PageUnderDevelopment.html">
+                      Tech Talk:
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Stay updated on cutting-edge technologies and innovations with our in-depth tech discussions and reviews.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-03-07">7 March, 2022</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">286</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="PageUnderDevelopment.html">
+                    <img src="./assets/images/blog-4.jpg" width="750" height="350" loading="lazy"
+                      alt="Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="PageUnderDevelopment.html">
+                      Behind the Scenes:
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Get an exclusive look behind the scenes at our company culture, projects, and team insights.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-03-07">7 August, 2023</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">55</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+       <!-- 
+        - #contactUS
+      -->
+
+
+      <section class="contactUS" id="contactUS">
+        <div class="container" style="padding-bottom: 1px;">
+          <div class="row">
+              <h1 id="contactUS_head">contact us</h1>
+          </div>
+          <div class="row">
+              <h4 style="text-align:center" id="contactUS_para">We'd love to hear from you!</h4>
+          </div>
+          <div class="row input-container">
+              <div class="col-xs-12">
+                <div class="styled-input wide">
+                  <input type="text" required />
+                  <label>Name</label> 
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                  <input type="text" required />
+                  <label>Email</label> 
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                  <input type="text" required />
+                  <label>Phone Number</label> 
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="styled-input wide">
+                  <textarea required></textarea>
+                  <label>Message</label>
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="btn">Send Message</div>
+              </div>
+          </div>
+        </div>
+        
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="index.html" class="logo"><img src="assets/images/atechTechnologies.png" alt="" style="height: 100px;"></a>
+
+          <p class="text">
+            "Crafting Connections, Elevating Digital Presence"
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Team</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Blog</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Digital Marketing</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">App Design</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Other links</p>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="PageUnderDevelopment.html" class="footer-link">Support</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:+91 6296780098" class="footer-item-link">+91 6296780098</a>
+              <!-- <a href="tel:+2486871365" class="footer-item-link">+91 </a> -->
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div>
+              <a href="goto.atech@gmail.com" class="footer-item-link">goto.atech@gmail.com</a>
+              <!-- <a href="mailto:help@desinic.com" class="footer-item-link">help@desinic.com</a> -->
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <address class="footer-item-link">
+              N R R  Road, Mukkhu Mohalla , Asansol-2 
+            </address>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">A-tech Technologies</a> Pvt Ltd. All rights reserved.
+      </p>
+    </div>
+
+  </footer>
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+
+<!-- javascript page reload -->
+     <script>
+
+      var delay_popup = 5000;
+      setTimeout("document.getElementById('over-lay').style.display='block'", delay_popup)
+
+    </script>
+
+ <!-- javascript page reload end -->
+
+
+    <!-- modal on page refresh -->
+
+
+    <div id="over-lay">
+      <div id="popup">
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          <span class="Close" onclick="document.getElementById('over-lay').style.display='none'">&times;</span>
+          <div class="container-fluid" style="padding-left: 0;">
+
+            <div class="row">
+              <div class="col-md-6">
+                <img src="/assets/images/Popbanner.png"  id="amir-message"  class="img-fluid" alt="">
+              </div>
+              <div class="col-md-6">
+                <h2 class="popupHeader">Let's Build Together & Grow Together!</h2>
+                <form action="" id="PopUpForm">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" id="text" placeholder="Full Name" name="text" required>
+                  </div>
+                  <div class="mb-3 mt-3">
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email" placeholder="Email Address" name="email" required>
+                  </div>
+                  <div class="mb-3">
+                    <input type="number" class="form-control" id="number" placeholder="Phone Number" name="number" required>
+                  </div>
+                  <!-- <div class="mb-3">
+                    <input type="text" class="form-control" id="text" placeholder="Website" name="text" required>
+                  </div> -->
+                  <div class="mb-3">
+                    <textarea class="form-control" rows="3" placeholder="Your Requirements" required></textarea>
+                  </div>
+                  <center>
+                    <button type="submit" class="btn" id="popBTN">Submit</button>
+                  </center>
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+
+
+    <!-- modal on page refresh end -->
+
+
+<!-- tech stack  -->
+
+  <!-- <script>
+    var con = document.querySelector("#test")
+    var btnn = document.getElementById("btn-12")
+    var btnn1 = document.getElementById("btn-22")
+
+
+
+    btnn.addEventListener("click", function () {
+
+      con.innerHTML = `<div class="Tech-content-1">
+        
+        <div id="sect-tech1">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/react.png" />
+            <p class="text-center my-auto mx-auto"> React </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/js.png" />
+            <p class="text-center my-auto mx-auto"> Javascript </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/node.png" />
+            <p class="text-center my-auto mx-auto"> Node.js </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/php.png" />
+            <p class="text-center my-auto mx-auto"> php </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech2">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/python.png" />
+            <p class="text-center my-auto mx-auto"> Python </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/java.png" />
+            <p class="text-center my-auto mx-auto"> Java </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/aws.png" />
+            <p class="text-center my-auto mx-auto"> aws </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/ml.png" />
+            <p class="text-center my-auto mx-auto"> Machine Learning </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech3">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/android.png" />
+            <p class="text-center my-auto mx-auto"> Android Dev </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/angular.png" />
+            <p class="text-center my-auto mx-auto"> Angular </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/chash.png" />
+            <p class="text-center my-auto mx-auto"> C# </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/cpp.png" />
+            <p class="text-center my-auto mx-auto"> C++ </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech4">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/azure.png" />
+            <p class="text-center my-auto mx-auto"> Azure </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/ruby.png" />
+            <p class="text-center my-auto mx-auto"> Ruby </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/wordpress.png" />
+            <p class="text-center my-auto mx-auto"> WordPress </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/ios.png" />
+            <p class="text-center my-auto mx-auto"> IOS Dev </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech5">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/html.png" />
+            <p class="text-center my-auto mx-auto"> HTML5 </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/flutter.png" />
+            <p class="text-center my-auto mx-auto"> Flutter </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/react.png" />
+            <p class="text-center my-auto mx-auto"> React Native </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/uiux.png" />
+            <p class="text-center my-auto mx-auto"> UI/UX </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech6">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/django.png" />
+            <p class="text-center my-auto mx-auto"> django </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/swift.png" />
+            <p class="text-center my-auto mx-auto"> Swift </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/fullstack.png" />
+            <p class="text-center my-auto mx-auto"> Full Stack </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/psql.png" />
+            <p class="text-center my-auto mx-auto"> PSQL </p>
+          </div>
+        </div>
+      </div>
+      </div>`;
+
+      btnn.classList.add("blue")
+      btnn1.classList.remove("blue")
+    })
+    btnn1.addEventListener("click", function () {
+
+      con.innerHTML = `    <div class="Tech-content-2">
+      <div class="Industry my-5">
+        <div id="sect-tech7">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-notes-medical fa-2xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> Healthcare </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-coins fa-2xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> FinTech </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/ind/saas.png" />
+            <p class="text-center my-auto mx-auto"> SaaS </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/ind/edtech.png" />
+            <p class="text-center my-auto mx-auto"> EdTech </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech8">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-tv fa-2xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> OTT </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/ind/ecommerce.png" />
+            <p class="text-center my-auto  mx-auto"> E-commerce
+            </p>
+          </div>
+          <div class="col-lg-2 shadow p-2 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-industry fa-xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> Manufacturing</p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-microchip fa-2xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> Information Technology
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech9">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-oil-well fa-2xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> Oil & Gas
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>`
+      btnn1.classList.add("blue")
+      btnn.classList.remove("blue")
+    })
+
+  </script> -->
+
+
+
+
+ 
+
+
+
+<!-- tech stack end -->
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

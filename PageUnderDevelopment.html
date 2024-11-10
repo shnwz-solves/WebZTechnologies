@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <title>Desinic - Get Best UI Design</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header  style="background: #fff;">
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="index.html">
+        <h1 class="logo"><img src="assets/images/Atech-logo1.png" alt="logo" style="height: 100px;"></h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo"></a>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-navbar-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-navbar-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-navbar-link>Features</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-navbar-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button href="#" class="btn" id="quoteButton">
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+        
+        <span>Get A Quote</span>
+      </button>
+      <!--Modal for form-->
+      <div id="quoteModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Get a Quote</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form id="quoteForm" action="mailto:your@email.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone:</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea class="form-control" id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Modal form form End-->
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+  <div style="display: flex;justify-content: center;align-items: center;flex-direction: column;margin-top: 100px;">
+    <img src="assets/images/PageUnderDevelopment-removebg-preview.png" alt="" style="background: #51558a;border: 1px solid;border-radius: 10px;">
+    <h1 style="font-size: 50px;font-weight: 700;margin: 30px 0px;">Page Under Development</h1>
+    <a href="index.html">
+      <button class="btn" style="margin-bottom: 20px;">Back to Homepage</button>
+    </a>
+  </div>
+
+
+
+ 
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="index.html" class="logo"><img src="assets/images/Atech-logo.png" alt="" style="height: 100px;"></a>
+
+          <p class="text">
+            "Crafting Connections, Elevating Digital Presence"
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Team</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Strategy & Research</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Solution</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Digital Marketing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">App Design</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Other links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Support</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:+91 6296780098" class="footer-item-link">+91 6296780098</a>
+              <!-- <a href="tel:+2486871365" class="footer-item-link">+91 </a> -->
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div>
+              <a href="atechtechnology12@gmail.com" class="footer-item-link">atechtechnology12@gmail.com</a>
+              <!-- <a href="mailto:help@desinic.com" class="footer-item-link">help@desinic.com</a> -->
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <address class="footer-item-link">
+              N R R  Road, Mukkhu Mohalla , Asansol-2 
+            </address>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">A-tech Technology</a> Pvt Ltd. All rights reserved.
+      </p>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+
+
+<!-- tech stack  -->
+
+  <!-- <script>
+    var con = document.querySelector("#test")
+    var btnn = document.getElementById("btn-12")
+    var btnn1 = document.getElementById("btn-22")
+
+
+
+    btnn.addEventListener("click", function () {
+
+      con.innerHTML = `<div class="Tech-content-1">
+        
+        <div id="sect-tech1">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/react.png" />
+            <p class="text-center my-auto mx-auto"> React </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/js.png" />
+            <p class="text-center my-auto mx-auto"> Javascript </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/node.png" />
+            <p class="text-center my-auto mx-auto"> Node.js </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/php.png" />
+            <p class="text-center my-auto mx-auto"> php </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech2">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/python.png" />
+            <p class="text-center my-auto mx-auto"> Python </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/java.png" />
+            <p class="text-center my-auto mx-auto"> Java </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/aws.png" />
+            <p class="text-center my-auto mx-auto"> aws </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/ml.png" />
+            <p class="text-center my-auto mx-auto"> Machine Learning </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech3">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/android.png" />
+            <p class="text-center my-auto mx-auto"> Android Dev </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/angular.png" />
+            <p class="text-center my-auto mx-auto"> Angular </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/chash.png" />
+            <p class="text-center my-auto mx-auto"> C# </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/cpp.png" />
+            <p class="text-center my-auto mx-auto"> C++ </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech4">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/azure.png" />
+            <p class="text-center my-auto mx-auto"> Azure </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/ruby.png" />
+            <p class="text-center my-auto mx-auto"> Ruby </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/wordpress.png" />
+            <p class="text-center my-auto mx-auto"> WordPress </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/ios.png" />
+            <p class="text-center my-auto mx-auto"> IOS Dev </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech5">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/html.png" />
+            <p class="text-center my-auto mx-auto"> HTML5 </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/flutter.png" />
+            <p class="text-center my-auto mx-auto"> Flutter </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/react.png" />
+            <p class="text-center my-auto mx-auto"> React Native </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/uiux.png" />
+            <p class="text-center my-auto mx-auto"> UI/UX </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech6">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/django.png" />
+            <p class="text-center my-auto mx-auto"> django </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/swift.png" />
+            <p class="text-center my-auto mx-auto"> Swift </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/fullstack.png" />
+            <p class="text-center my-auto mx-auto"> Full Stack </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/tech/psql.png" />
+            <p class="text-center my-auto mx-auto"> PSQL </p>
+          </div>
+        </div>
+      </div>
+      </div>`;
+
+      btnn.classList.add("blue")
+      btnn1.classList.remove("blue")
+    })
+    btnn1.addEventListener("click", function () {
+
+      con.innerHTML = `    <div class="Tech-content-2">
+      <div class="Industry my-5">
+        <div id="sect-tech7">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-notes-medical fa-2xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> Healthcare </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-coins fa-2xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> FinTech </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/ind/saas.png" />
+            <p class="text-center my-auto mx-auto"> SaaS </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/ind/edtech.png" />
+            <p class="text-center my-auto mx-auto"> EdTech </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech8">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-tv fa-2xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> OTT </p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <img src="images/ind/ecommerce.png" />
+            <p class="text-center my-auto  mx-auto"> E-commerce
+            </p>
+          </div>
+          <div class="col-lg-2 shadow p-2 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-industry fa-xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> Manufacturing</p>
+          </div>
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-microchip fa-2xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> Information Technology
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="sect-tech9">
+        <div class="row justify-content-center bg-white flex-fill col-lg-9 mx-auto">
+          <div class="col-lg-2 shadow p-3 mb-5 bg-white rounded tech-cont fw-bold d-flex flex-row ts-card mx-4">
+            <i class="fa-solid fa-oil-well fa-2xl m-auto" style="color: #000000;"></i>
+            <p class="text-center my-auto mx-auto"> Oil & Gas
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>`
+      btnn1.classList.add("blue")
+      btnn.classList.remove("blue")
+    })
+
+  </script> -->
+
+<!-- tech stack end -->
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
